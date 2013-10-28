@@ -1,0 +1,9 @@
+# author: dele.o
+# http://deleomotosho.com
+  
+. /home/vagrant/bash/env
+. /home/vagrant/bash/config
+. /home/vagrant/bash/aliases
+. /home/vagrant/bash/funcs  
+. /home/vagrant/bash/git_completion
+. /home/vagrant/bash/custom

@@ -1,0 +1,31 @@
+# author: dele.o
+# http://delewrit.es
+
+#env global
+alias ..="cd .."
+
+
+#aliases
+alias ws="/var/www/vhosts/verivo.com/verivo.com/httpdocs/"
+alias desk="cd ~/Desktop"
+alias dotf="cd ~/bin/dotfiles/"
+alias reload="source ~/.bashrc"
+alias er="mate -w ~/bin/dotfiles/bash/ && reload"
+
+
+
+#Utilities
+alias c="clear"
+alias zipr="zip -r"
+alias m="mate"
+alias h="history"
+
+#mac specific
+alias hide="chflags hidden ~/Desktop/*"
+alias unhide="chflags nohidden ~/Desktop/*"
+
+#Git
+alias g="git status"
+alias br="git branch"
+alias glog="git log"
+alias gtag="git tag"

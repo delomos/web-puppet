@@ -1,0 +1,21 @@
+#codeception
+alias ct="vendor/bin/codecept"
+alias ct:a="vendor/bin/codecept run acceptance"
+alias ct:f="vendor/bin/codecept run functional"
+
+# artisan
+alias g:mig='artisan generate:migration ' #make a new migration
+alias g:m='artisan generate:model ' #make a new model
+alias g:s='artisan generate:seed ' #make a new seed
+alias g:v='artisan generate:view ' #make a new view
+alias g:t='artisan generate:test ' #make a new test
+alias g:r='artisan generate:resource ' #make a new controller 
+alias c:m='artisan controller:make ' #make a new test
+alias w:d='artisan wa:db refresh'
+alias ide:m='artisan ide-helper:models  -W'
+
+alias artisan='php artisan'
+alias artlocal='artisan --env=local'
+alias arttesting='artisan --env=local'
+alias reset_clean_dev='artlocal migrate:refresh && artlocal migrate --package=cartalyst/sentry && artlocal db:seed'
+alias reset_clean_test='arttesting migrate:refresh && arttesting migrate --package=cartalyst/sentry && arttesting db:seed'
